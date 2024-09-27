@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@normalframework/applications-sdk": "0.1.72",
+    "aws-sdk": "^2.1691.0",
     "pg": "^8.11.0",
     "typescript": "^5.0.2"
   },
