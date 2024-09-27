@@ -1,0 +1,17 @@
+{
+  "name": "BACnet to S3 Connector",
+  "version": "1.0.0",
+  "description": "An app to send BACnet data to AWS S3",
+  "hooks": {
+    "update": {
+      "files": [
+        "/hooks-update/update-hook.json"
+      ]
+    },
+    "delete": {
+      "files": [
+        "/hooks-delete/delete-hook.json"
+      ]
+    }
+  }
+}
